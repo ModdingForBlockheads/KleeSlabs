@@ -4,15 +4,10 @@ Minecraft Mod. Break only the half of a double slab that you're looking at.
 
 - [Modpack Permissions](https://mods.twelveiterations.com/permissions)
 
-#### Forge
+#### Downloads
 
 [![Versions](http://cf.way2muchnoise.eu/versions/241895_latest.svg)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs)
 [![Downloads](http://cf.way2muchnoise.eu/full_241895_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs)
-
-#### Fabric
-
-[![Versions](http://cf.way2muchnoise.eu/versions/547695_latest.svg)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
-[![Downloads](http://cf.way2muchnoise.eu/full_547695_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
 
 ## Contributing
 
