@@ -1,1 +1,1 @@
-- Updated to Minecraft 1.20
+- Fixed supported for Forestry: Community Edition slabs
