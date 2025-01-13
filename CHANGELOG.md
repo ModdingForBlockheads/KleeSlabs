@@ -1,5 +1,1 @@
-- Added support for slabs from Supplementaries
-- Added support for slabs from Blue Skies
-- Added support for slabs from More Slabs, Stairs and Walls
-- Added support for missing slabs from Quark and Create
-- Fixed support for slabs from Forestry: Community Edition
+- Fixed support for slabs from Botania
