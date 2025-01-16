@@ -23,7 +23,7 @@ public class SlabDumpHandler {
     public static void dumpSlabs() {
         Map<String, List<ResourceLocation>> slabsByMod = BuiltInRegistries.BLOCK.keySet()
                 .stream()
-                .filter(itemName -> itemName.getPath().endsWith("_slab"))
+                .filter(itemName -> itemName.getPath().endsWith("_slab") && !itemName.getPath().contains("vertical"))
                 .collect(Collectors.groupingBy(ResourceLocation::getNamespace));
 
         for (Map.Entry<String, List<ResourceLocation>> slabs : slabsByMod.entrySet()) {
