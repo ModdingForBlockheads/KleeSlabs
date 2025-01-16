@@ -1,1 +1,1 @@
-- Fixed support for slabs from Botania
+- Fixed crash with some Quark slabs
