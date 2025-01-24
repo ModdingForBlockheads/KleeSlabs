@@ -3,6 +3,7 @@
   "silent": true,
   "converter": "SmartSlabConverter",
   "slabs": [
+    "bloom_slab",
     "cobbled_gloomslate_slab",
     "cobbled_sculk_stone_slab",
     "cut_gloomslate_slab",
@@ -13,6 +14,7 @@
     "gloomslate_tile_slab",
     "polished_gloomslate_slab",
     "polished_sculk_stone_slab",
+    "sculk_grime_brick_slab",
     "sculk_stone_brick_slab",
     "sculk_stone_slab",
     "sculk_stone_tile_slab",
