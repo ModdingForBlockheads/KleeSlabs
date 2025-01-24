@@ -1,1 +1,1 @@
-- Fixed crash with some Quark slabs
+- Enabled compatibility files from Forge on Fabric as well for cases where mods have since been ported 
