@@ -36,7 +36,7 @@ public class BlockBreakHandler {
         }
 
         BlockState state = event.getState();
-        SlabConverter slabConverter = SlabRegistry.getSlabConverter(state.getBlock());
+        SlabConverter slabConverter = SlabRegistry.getSlabConverter(state);
         if (slabConverter == null || !slabConverter.isDoubleSlab(state)) {
             return;
         }

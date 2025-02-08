@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.state.properties.SlabType;
 
 import java.util.Optional;
 
+@Deprecated
 public class SmarterSlabConverter implements SlabConverter {
 
     private Block slabBlock;

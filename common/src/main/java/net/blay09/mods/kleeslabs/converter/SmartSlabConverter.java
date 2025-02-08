@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.SlabType;
 
+@Deprecated
 public class SmartSlabConverter implements SlabConverter {
 
     private final Block singleSlab;

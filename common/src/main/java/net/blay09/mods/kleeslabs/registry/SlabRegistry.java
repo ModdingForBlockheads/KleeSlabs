@@ -1,8 +1,11 @@
 package net.blay09.mods.kleeslabs.registry;
 
 import net.blay09.mods.kleeslabs.KleeSlabs;
+import net.blay09.mods.kleeslabs.converter.DefaultSlabConverter;
 import net.blay09.mods.kleeslabs.converter.SlabConverter;
+import net.blay09.mods.kleeslabs.tag.ModBlockTags;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
 import java.lang.reflect.Constructor;
@@ -38,7 +41,19 @@ public class SlabRegistry {
     }
 
     @Nullable
+    public static SlabConverter getSlabConverter(BlockState block) {
+        if (block.is(ModBlockTags.SLABS)) {
+            return DefaultSlabConverter.INSTANCE;
+        }
+        return slabMap.get(block.getBlock());
+    }
+
+    @Nullable
+    @Deprecated
     public static SlabConverter getSlabConverter(Block block) {
+        if (block.defaultBlockState().is(ModBlockTags.SLABS)) {
+            return DefaultSlabConverter.INSTANCE;
+        }
         return slabMap.get(block);
     }
 

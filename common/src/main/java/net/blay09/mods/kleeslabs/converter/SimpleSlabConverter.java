@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.SlabType;
 
+@Deprecated
 public class SimpleSlabConverter implements SlabConverter {
 
     private final Block singleSlab;
