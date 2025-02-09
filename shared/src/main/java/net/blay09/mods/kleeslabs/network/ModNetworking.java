@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 public class ModNetworking {
 
     public static void initialize(BalmNetworking networking) {
+        networking.allowServerOnly(KleeSlabs.MOD_ID);
         networking.registerClientboundPacket(id("kleeslabs_registry"), KleeSlabsRegistryMessage.class, KleeSlabsRegistryMessage::encode, KleeSlabsRegistryMessage::decode, KleeSlabsRegistryMessage::handle);
     }
 
